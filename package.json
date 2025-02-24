@@ -1,0 +1,23 @@
+{
+  "name": "urlshorter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "node.js"
+  ],
+  "author": "Abhishek kumar",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2",
+    "mongoose": "^8.10.1",
+    "nanoid": "^5.1.2",
+    "nodemon": "^3.1.9",
+    "param": "^1.1.0",
+    "shortid": "^2.2.17"
+  }
+}
